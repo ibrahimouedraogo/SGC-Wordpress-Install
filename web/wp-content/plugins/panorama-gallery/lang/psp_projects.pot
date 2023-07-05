@@ -1,0 +1,495 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Project Panorama Gallery\n"
+"POT-Creation-Date: 2020-11-08 14:38-0500\n"
+"PO-Revision-Date: 2020-11-08 14:38-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: panorama-gallery.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:399
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:399
+msgid "Error"
+msgstr ""
+
+#: addon-license-menu.php:10
+msgid "Panorama Add-on Settings"
+msgstr ""
+
+#: addon-license-menu.php:17
+msgid "Panorama gallery settings have been updated"
+msgstr ""
+
+#: panorama-gallery-fields.php:7
+msgid "Project Gallery"
+msgstr ""
+
+#: panorama-gallery-fields.php:11
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:132
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:183
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:376
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:376
+msgid "Title"
+msgstr ""
+
+#: panorama-gallery-fields.php:23
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:144
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:195
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:403
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:403
+msgid "Description"
+msgstr ""
+
+#: panorama-gallery-fields.php:32
+msgid "Style"
+msgstr ""
+
+#: panorama-gallery-fields.php:34
+msgid "What type of gallery would you like?"
+msgstr ""
+
+#: panorama-gallery-fields.php:37
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:166
+msgid "Grid"
+msgstr ""
+
+#: panorama-gallery-fields.php:38
+msgid "Masonry"
+msgstr ""
+
+#: panorama-gallery-fields.php:39
+msgid "Slideshow"
+msgstr ""
+
+#: panorama-gallery-fields.php:40
+msgid "Banded"
+msgstr ""
+
+#: panorama-gallery-fields.php:68
+msgid "Upload photos related to this project"
+msgstr ""
+
+#: panorama-gallery.php:151
+msgid "Gallery License Key"
+msgstr ""
+
+#: panorama-gallery.php:155
+msgid "Enter your license key"
+msgstr ""
+
+#: panorama-gallery.php:161 panorama-gallery.php:171
+#: psp-gallery-settings.php:28 psp-gallery-settings.php:81
+msgid "Activate License"
+msgstr ""
+
+#: panorama-gallery.php:165 psp-gallery-settings.php:74
+msgid "Active"
+msgstr ""
+
+#: panorama-gallery.php:167 psp-gallery-settings.php:76
+msgid "Deactivate License"
+msgstr ""
+
+#: panorama-gallery.php:169 psp-gallery-settings.php:79
+msgid "Inactive"
+msgstr ""
+
+#: panorama-gallery.php:178 psp-gallery-settings.php:33
+msgid "Gallery Location"
+msgstr ""
+
+#: panorama-gallery.php:184 psp-gallery-settings.php:36
+msgid "After Overview"
+msgstr ""
+
+#: panorama-gallery.php:185 psp-gallery-settings.php:37
+msgid "After Progress"
+msgstr ""
+
+#: panorama-gallery.php:186 psp-gallery-settings.php:38
+msgid "After Phases"
+msgstr ""
+
+#: panorama-gallery.php:187 psp-gallery-settings.php:39
+msgid "Using [psp-gallery] shortcode"
+msgstr ""
+
+#: panorama-gallery.php:198
+msgid "Show Image Descriptions"
+msgstr ""
+
+#: panorama-gallery.php:202 psp-gallery-settings.php:47
+msgid "Yes"
+msgstr ""
+
+#: panorama-gallery.php:203 psp-gallery-settings.php:48
+msgid "No"
+msgstr ""
+
+#: panorama-gallery.php:205
+msgid "Hiding the description will make photos larger"
+msgstr ""
+
+#: psp-gallery-module/acf-gallery.php:32
+msgid "Advanced Custom Fields: Gallery Field"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:22
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:25
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:25
+msgid "Gallery"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:23
+msgid "Content"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:29
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:41
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:72
+msgid "Add Image to Gallery"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:30
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:42
+msgid "Edit Image"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:31
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:43
+msgid "Update Image"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:32
+msgid "uploaded to this post"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:33
+msgid "No images selected"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:34
+msgid "1 image selected"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:35
+#, php-format
+msgid "%d images selected"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:136
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:187
+msgid "Alternate Text"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:140
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:191
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:385
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:385
+msgid "Caption"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:153
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:204
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:364
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:552
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:364
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:552
+msgid "Remove"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:154
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:205
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:363
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:363
+msgid "Edit"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:165
+msgid "Add Image"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:167
+msgid "List"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:238
+msgid "Preview Size"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:239
+msgid "Shown when entering data"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:257
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:676
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:676
+msgid "Library"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:258
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:677
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:677
+msgid "Limit the media library choice"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:269
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:682
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:682
+msgid "All"
+msgstr ""
+
+#: psp-gallery-module/includes/4-0/acf-gallery-field.php:270
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:683
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:683
+msgid "Uploaded to post"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:44
+msgid "Uploaded to this post"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:45
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:73
+msgid "Maximum selection reached"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:342
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:342
+msgid "Length"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:394
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:394
+msgid "Alt Text"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:565
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:565
+msgid "Add to gallery"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:569
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:569
+msgid "Bulk actions"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:570
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:570
+msgid "Sort by date uploaded"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:571
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:571
+msgid "Sort by date modified"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:572
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:572
+msgid "Sort by title"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:573
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:573
+msgid "Reverse current order"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:591
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:591
+msgid "Close"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:594
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:594
+msgid "Update"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:645
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:645
+msgid "Minimum Selection"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:654
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:654
+msgid "Maximum Selection"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:663
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:663
+msgid "Insert"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:664
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:664
+msgid "Specify where new attachments are added"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:668
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:668
+msgid "Append to the end"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:669
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:669
+msgid "Prepend to the beginning"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:690
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:690
+msgid "Minimum"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:691
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:720
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:691
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:720
+msgid "Restrict which images can be uploaded"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:694
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:723
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:694
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:723
+msgid "Width"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:702
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:731
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:702
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:731
+msgid "Height"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:711
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:740
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:711
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:740
+msgid "File size"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:719
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:719
+msgid "Maximum"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:748
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:748
+msgid "Allowed file types"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:749
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:749
+msgid "Comma separated list. Leave blank for all types"
+msgstr ""
+
+#: psp-gallery-module/includes/5-0/acf-gallery-field.php:821
+#: psp-gallery-module/includes/5-7/acf-gallery-field.php:821
+#, php-format
+msgid "%s requires at least %s selection"
+msgid_plural "%s requires at least %s selections"
+msgstr[0] ""
+msgstr[1] ""
+
+#: psp-gallery-settings.php:5 psp-gallery-settings.php:17
+msgid "Image Gallery"
+msgstr ""
+
+#: psp-gallery-settings.php:22
+msgid "License Key"
+msgstr ""
+
+#: psp-gallery-settings.php:23
+msgid "Enter your license key, save and then activate."
+msgstr ""
+
+#: psp-gallery-settings.php:44
+msgid "Show image description"
+msgstr ""
+
+#: psp-gallery-settings.php:82
+msgid "Check Activation Message"
+msgstr ""
+
+#: psp-gallery-settings.php:112 psp-gallery-settings.php:140
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: psp-gallery-settings.php:119
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: psp-gallery-settings.php:124
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: psp-gallery-settings.php:127
+msgid "Invalid license."
+msgstr ""
+
+#: psp-gallery-settings.php:131
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: psp-gallery-settings.php:134
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: psp-gallery-settings.php:137
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: psp-gallery-views.php:404
+msgid "Edit Gallery"
+msgstr ""
+
+#: psp-gallery-views.php:404
+msgid "Add Gallery"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Project Panorama Gallery"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.projectpanorama.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add a photogallery to your project page"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SnapOrbital"
+msgstr ""

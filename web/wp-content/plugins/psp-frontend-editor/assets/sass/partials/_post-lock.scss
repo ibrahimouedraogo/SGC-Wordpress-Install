@@ -1,0 +1,22 @@
+.psp-post-lock-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 1000;
+}
+
+.psp-post-lock-alert {
+    max-width: 640px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    text-align: center;
+    position: fixed;
+    z-index: 10001;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

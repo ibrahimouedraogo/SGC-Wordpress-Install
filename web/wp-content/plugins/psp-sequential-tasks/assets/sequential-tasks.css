@@ -1,0 +1,29 @@
+#psp-projects .psp-task-list .task-item.psp-is-sequential span.psp-sub-task-edit-links,
+#psp-projects .psp-task-list .task-item.psp-is-sequential span.psp-task-edit-links {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#psp-projects .psp-phase.phase-complete + .psp-phase .psp-task-list .task-item:first-child:hover span.psp-sub-task-edit-links,
+#psp-projects .psp-task-list .task-item.complete + .task-item.psp-is-sequential span.psp-sub-task-edit-links {
+     visibility: visible;
+     pointer-events: all;
+}
+
+#psp-projects .psp-phase.phase-complete + .psp-phase .psp-task-list .task-item:first-child:hover span.psp-task-edit-links,
+#psp-projects .psp-task-list .task-item.complete + .task-item.psp-is-sequential:hover span.psp-task-edit-links {
+    visibility: visible;
+    pointer-events: all;
+}
+
+#psp-projects .psp-task-list .task-item.sub-task-item strong {
+    font-size: 12px;
+}
+
+#psp-projects .psp-task-list .task-item.sub-task-item + .task-item {
+    margin-top: 25px;
+}
+/*
+#psp-projects .psp-task-list li.psp-has-subtask > span {
+    display: none;
+}*/

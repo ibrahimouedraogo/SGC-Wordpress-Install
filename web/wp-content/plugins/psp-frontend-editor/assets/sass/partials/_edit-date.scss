@@ -1,0 +1,74 @@
+/**
+  * Edit Datepicker
+  */
+ .js-psp-edit-date {
+     position: absolute;
+     margin-left: -28px;
+     margin-top: -4px;
+ }
+
+ .psp-archive-list-dates {
+     &:hover .js-psp-edit-date {
+         opacity: 0.8;
+         transform: scale(1);
+     }
+ }
+
+.psp-fe-edit-date-input {
+    display: none;
+    vertical-align: bottom;
+    margin-left: 20px;
+}
+
+.psp-fe-edit-date-input {
+    input[type='text'] {
+        background: #fff;
+        border: 1px solid #ddd;
+        display: block;
+        width: 100%;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    input[type='submit'] {
+        width: 18%;
+        display: inline-block;
+        padding: 12px 5px;
+        margin-top: 24px;
+        float: left;
+    }
+    margin-bottom: 30px;
+}
+
+.psp-date-label {
+    width: 38%;
+    margin: 0 1% 0 0;
+    float: left;
+    label {
+    	text-transform: uppercase;
+    	color: #666;
+        font-weight: bold;
+    	letter-spacing: 1px;
+    	font-size: 12px;
+    	margin: 0 0 8px 0;
+    	line-height: 16px;
+        display: block;
+    }
+}
+
+.js-psp-fe-set-dates {
+     margin-left: 20px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px dashed #ddd;
+    width: 100%;
+    color: #777;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+    &:hover {
+        background: #fff;
+    }
+}

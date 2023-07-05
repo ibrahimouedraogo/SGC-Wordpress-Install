@@ -1,0 +1,245 @@
+/* line 7, ../sass/psp-kanban.scss */
+#psp-projects #psp-phases.psp-kb-hidden {
+  height: 0;
+  overflow: hidden;
+}
+/* line 11, ../sass/psp-kanban.scss */
+#psp-projects #psp-phases.psp-kb-active {
+  height: auto !important;
+  overflow: visible !important;
+}
+/* line 17, ../sass/psp-kanban.scss */
+#psp-projects #psp-phases .psp-section-heading .psp-h2 span.psp-kb-phase-icon {
+  display: inline-flex;
+  align-items: center;
+}
+/* line 20, ../sass/psp-kanban.scss */
+#psp-projects #psp-phases .psp-section-heading .psp-h2 span.psp-kb-phase-icon svg {
+  max-height: 30px;
+  max-width: 30px;
+  margin-right: 4px;
+}
+/* line 26, ../sass/psp-kanban.scss */
+#psp-projects #psp-phases .psp-section-heading .psp-h2 a {
+  margin-left: 24px;
+  opacity: 0.6;
+  display: inline-flex;
+  align-items: center;
+}
+/* line 27, ../sass/psp-kanban.scss */
+#psp-projects #psp-phases .psp-section-heading .psp-h2 a svg {
+  max-height: 30px;
+  max-width: 30px;
+  margin-right: 4px;
+  fill: #000 !important;
+}
+/* line 37, ../sass/psp-kanban.scss */
+#psp-projects #psp-phases .psp-section-heading .psp-h2 a:hover {
+  opacity: 1;
+}
+/* line 41, ../sass/psp-kanban.scss */
+#psp-projects #psp-phases .psp-section-heading .psp-h2 span.is-active {
+  display: inline-flex;
+  align-items: center;
+}
+/* line 42, ../sass/psp-kanban.scss */
+#psp-projects #psp-phases .psp-section-heading .psp-h2 span.is-active svg {
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 4px;
+}
+/* line 54, ../sass/psp-kanban.scss */
+#psp-projects .psp-kanban {
+  display: none;
+}
+/* line 56, ../sass/psp-kanban.scss */
+#psp-projects .psp-kanban .psp-section-heading {
+  align-items: center;
+}
+/* line 60, ../sass/psp-kanban.scss */
+#psp-projects .psp-kanban .psp-h2 a {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.6;
+  margin-right: 24px;
+}
+/* line 61, ../sass/psp-kanban.scss */
+#psp-projects .psp-kanban .psp-h2 a svg {
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 4px;
+}
+/* line 70, ../sass/psp-kanban.scss */
+#psp-projects .psp-kanban .psp-h2 a:hover {
+  opacity: 1;
+}
+/* line 74, ../sass/psp-kanban.scss */
+#psp-projects .psp-kanban .psp-h2 span.is-active {
+  display: inline-flex;
+  align-items: center;
+}
+/* line 75, ../sass/psp-kanban.scss */
+#psp-projects .psp-kanban .psp-h2 span.is-active svg {
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 4px;
+}
+/* line 86, ../sass/psp-kanban.scss */
+#psp-projects .psp-lanes {
+  margin-bottom: 60px;
+  width: 100%;
+  overflow: auto;
+}
+/* line 90, ../sass/psp-kanban.scss */
+#psp-projects .psp-lanes-wrap {
+  padding-left: 32px;
+  width: 10000px;
+}
+/* line 94, ../sass/psp-kanban.scss */
+#psp-projects .psp-lanes__headings, #psp-projects .psp-lanes__cards {
+  display: flex;
+}
+/* line 102, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane[data-updatable="false"] .task-item:hover .psp-task-edit-links {
+  display: none !important;
+}
+/* line 108, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__label {
+  display: flex;
+  padding-right: 16px;
+  justify-content: space-between;
+}
+/* line 112, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__label .psp-lane-handle {
+  cursor: grab;
+}
+/* line 117, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__menu {
+  margin-left: 16px;
+  position: relative;
+  cursor: pointer;
+}
+/* line 121, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__menu-items {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 8px 15px rgba(50, 50, 93, 0.05), 0 5px 10px rgba(0, 0, 0, 0.03);
+  padding: 8px 16px;
+  position: absolute;
+  right: -6px;
+  text-align: right;
+  display: none;
+  z-index: 10;
+}
+/* line 131, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__menu-items a {
+  font-size: 14px;
+  min-width: 100px;
+  display: inline-block;
+}
+/* line 136, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__menu-items::before {
+  content: '';
+  border-bottom: 6px solid #fff;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-top: 0;
+  position: absolute;
+  right: 8px;
+  top: -6px;
+}
+/* line 149, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__menu.is-open .psp-lane__menu-items {
+  display: block;
+}
+/* line 155, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane {
+  width: 100%;
+  max-width: 300px;
+  margin-right: 12px;
+}
+/* line 159, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane .psp-lane__container {
+  overflow-x: scroll;
+  max-height: 100vh;
+  min-height: 50px;
+  margin-bottom: 16px;
+  padding-right: 16px;
+}
+/* line 166, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__task {
+  margin-bottom: 16px;
+}
+/* line 168, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__task .psp-task-title {
+  margin-bottom: 0px;
+  font-size: 16px;
+  cursor: grab;
+}
+/* line 172, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__task .psp-task-title .psp-task__phase {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: #f3f3f3;
+  color: #333;
+  font-size: 12px;
+  line-height: 1.2;
+}
+/* line 182, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__task-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.75;
+  color: #666;
+}
+/* line 189, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__task-meta span {
+  margin-right: 8px;
+}
+/* line 193, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane__task .fe-edit-task-link {
+  left: 0 !important;
+  top: 0 !important;
+}
+/* line 198, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane .psp-card {
+  background: #fff;
+  padding: 16px;
+  box-shadow: 0 8px 15px rgba(50, 50, 93, 0.05), 0 5px 10px rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+}
+/* line 203, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane .psp-card .psp-progress-bar {
+  display: block;
+  height: 10px;
+  border-radius: 3px;
+  background: #efefef;
+}
+/* line 208, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane .psp-card .psp-progress-bar .status {
+  margin-top: 32px;
+  border-radius: 6px 0 0 6px;
+  height: 10px;
+  color: #fff;
+  display: block;
+  transition: all 250ms ease-in-out;
+  background: #3299BB;
+}
+/* line 216, ../sass/psp-kanban.scss */
+#psp-projects .psp-lane .psp-card .psp-progress-bar .status.psp-100 {
+  border-radius: 6px;
+}
+/* line 224, ../sass/psp-kanban.scss */
+#psp-projects .psp-kb-task-lane {
+  font-size: 12px;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  background: #f3f3f3;
+  color: #333;
+  margin: 0 0 0 4px;
+  line-height: 1;
+}

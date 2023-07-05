@@ -1,0 +1,72 @@
+#psp-offcanvas-task-details {
+
+	#subtasks {
+
+		// Put the styling where we can see it
+		@import "../../../Project-Panorama/src/assets/scss/_partials/tasks";
+
+		span.psp-sub-task-edit-links {
+			display: none !important;
+		}
+
+		.psp-has-subtask {
+
+			.psp-task-table-status {
+
+				& > span.psp-task-edit-links {
+					display: none !important;
+				}
+
+			}
+
+		}
+
+		ul.psp-sub-tasks {
+
+			// Copy/pasta
+			@extend .psp-task-list;
+
+			li {
+
+				span.psp-sub-task-edit-links {
+					display: none;
+				}
+
+				&:hover {
+
+					span.psp-sub-task-edit-links {
+						display: block;
+					}
+
+				}
+
+
+
+			}
+
+		}
+
+		ul.psp-sub-tasks {
+
+			padding-top: 0 !important;
+			border: none;
+
+			&:before {
+				display: none;
+			}
+
+			.psp-sub-task-edit-links {
+				display: none !important;
+			}
+
+		}
+
+	}
+
+}
+
+.fieldhelpers-field-repeater-row {
+	border: 2px solid #ddd;
+	border-radius: 3px;
+	padding: 20px;
+}

@@ -1,0 +1,18 @@
+#acf_acf_project-gallery > .inside > .field
+{
+    border-top: 0px !important;
+}
+
+.field_key-field_5424a358051b1 table tbody tr:last-child,
+.field_key-field_5424a358051b1 table tbody tr:first-child {
+    display: none;
+}
+
+.field_key-field_5424a358051b1 table tbody tr td,
+.field_key-field_5424a358051b1 table tbody tr th {
+    border: 0px !important;
+}
+
+.field_key-field_5424a358051b1 table tbody tr th {
+    text-align: right;
+}

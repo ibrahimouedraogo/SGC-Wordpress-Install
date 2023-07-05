@@ -1,0 +1,37 @@
+.psp-wizard-body {
+     .acf-table {
+          border: 0;
+          background: transparent;
+          & > tbody > tr.acf-row {
+               border-radius: 8px;
+               background: #f3f3f3;
+               .acf-table > tbody > tr.acf-row {
+                    background: #fff;
+                    border-bottom: 5px solid #f3f3f3;
+                    td {
+                         border-bottom-color: #f3f3f3;
+                    }
+               }
+               td {
+                    background: transparent;
+                    border-bottom: 10px solid #fff;
+                    input[type='text'],
+                    textarea,
+                    input[type='url'] {
+                         background: #fff;
+                         border-radius: 3px;
+                    }
+               }
+          }
+     }
+     .acf-button {
+          border-radius: 3px;
+     }
+     /** User Table **/
+     .acf-field-532b8d8b9c46b {
+          .acf-table > tbody > tr.acf-row > td {
+               border-bottom: 1px solid #fff;
+          }
+     }
+     
+}

@@ -1,0 +1,21 @@
+.psp-frontend-field {
+
+	& > label[for="sub_tasks"] {
+		display: none !important; // psp_get_frontend_field() creates a Label for me, but we don't want to use it
+	}
+	
+	.fieldhelpers-field-repeater.psp_st-fieldhelpers-field {
+		
+		.fieldhelpers-field-repeater-row:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+		
+		.fieldhelpers-field-repeater-delete-button {
+			float: right;
+		}
+		
+	}
+
+}

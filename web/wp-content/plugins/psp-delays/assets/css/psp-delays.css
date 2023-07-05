@@ -1,0 +1,65 @@
+.psp-delays-bubble a.pano-btn {
+    float: right;
+    padding: 8px 10px;
+    line-height: 1em;
+    margin-bottom: -2px;
+}
+.psp-editing {
+    display: none;
+}
+.psp-delays-link-wrap {
+     float: right;
+     margin-left: 20px;
+     padding-top: 20px;
+}
+.psp-delays-link-wrap .psp-delays-link  {
+     font-size: 14px;
+     padding: 0 15px;
+     display: inline-block;
+     border-right: 1px solid #ddd;
+     margin-right: 15px;
+     text-decoration: underline;
+}
+
+.psp-delays-table label {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.psp-delays-table td {
+    vertical-align: top;
+}
+
+.psp-delays-table th.psp-delays-th-days {
+     text-align: center;
+}
+
+.psp-delays-table textarea,
+.psp-delays-table input[type='text'],
+.psp-delays-table input[type='number'] {
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.psp-delays-edit-actions-td {
+    vertical-align: middle !important;
+}
+
+.psp-delay-actions-td a {
+    white-space: nowrap;
+}
+
+.psp-delays-bubble {
+    margin: 20px 0;
+}
+
+.psp-delays-bubble::after {
+    content: '';
+    display: block;
+    clear: both;
+}

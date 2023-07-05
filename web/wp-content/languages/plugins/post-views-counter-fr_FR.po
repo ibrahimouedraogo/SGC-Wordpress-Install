@@ -1,0 +1,567 @@
+# Translation of Plugins - Post Views Counter - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Post Views Counter - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-08 17:35:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Post Views Counter - Stable (latest release)\n"
+
+#: includes/class-settings.php:639
+msgid "How often to flush cached view counts from the object cache into the database. This feature is used only if a persistent object cache is detected and the interval is greater than %s. When used, view counts will be collected and stored in the object cache instead of the database and will then be asynchronously flushed to the database according to the specified interval.<br /><strong>Notice:</strong> Potential data loss may occur if the object cache is cleared/unavailable for the duration of the interval."
+msgstr "La fréquence à laquelle les vues mises en cache sont vidées du cache d’objets dans la base de données. Cette fonctionnalité est utilisée uniquement si un cache d’objets persistant est détecté et que l’intervalle est supérieur à %s. Lorsqu’il est utilisé, le nombre de vues sera collecté et stocké dans le cache d’objets au lieu de la base de données, puis sera vidé de manière asynchrone dans la base de données selon l’intervalle spécifié.<br /><strong>Remarquer :</strong> Une perte de données potentielle peut se produire si le cache d’objets est effacé/indisponible pendant la durée de l’intervalle."
+
+#: includes/class-settings.php:584
+msgid "Delete single day post views data older than specified above. Enter %s if you want to preserve your data regardless of its age."
+msgstr "Supprimez les données de vues de publication d’un jour plus anciennes que celles spécifiées ci-dessus. Saisir %s pour conserver vos données quel que soit leur âge."
+
+#: includes/class-settings.php:286
+msgid "Select where would you like to display the post views counter. Use %s shortcode for manual display."
+msgstr "Choisir l’endroit où afficher le compteur de vues de publication. Utiliser le code court %s pour un affichage manuel."
+
+#: includes/class-settings.php:130
+msgid "Select the method of collecting post views data. If you are using any of the caching plugins select JavaScript or REST API (if available)."
+msgstr "Choisir la méthode de collecte des données de vues de publication. Si vous utilisez une extension de mise en cache, choisissez JavaScript ou API REST (si disponible)."
+
+#: includes/class-settings.php:704
+msgid "Use it exclude specific user roles from post views count."
+msgstr "Utilisez-le pour exclure des rôles utilisateur/utilisatrice spécifiques du nombre de vues de publication."
+
+#: includes/class-settings.php:695
+msgid "Use it exclude specific user groups from post views count."
+msgstr "Utilisez-le pour exclure des groupes d’utilisateur/utilisatrice spécifiques du nombre de vues de publication."
+
+#: includes/class-settings.php:101 includes/class-settings.php:338
+msgid "Post Views Counter Settings"
+msgstr "Réglages de Post Views Counter"
+
+#: includes/class-settings-api.php:620
+msgid "Settings restored to defaults."
+msgstr "Réglages réinitialisés."
+
+#: includes/class-settings-api.php:594
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: includes/class-settings.php:319
+msgid "The post views chart will be displayed for the post types that are being counted."
+msgstr "Le graphique des affichages de publication s’affiche pour les types de publication qui sont comptés."
+
+#: includes/class-settings.php:320
+msgid "Enable to display the post views chart at the toolbar."
+msgstr "Activez cette option pour afficher le graphique des affichages de publication dans la barre d’outils."
+
+#: includes/class-settings.php:316
+msgid "Toolbar Chart"
+msgstr "Graphique de la barre d’outils"
+
+#: includes/class-dashboard.php:527
+msgid "Post"
+msgstr "Publication"
+
+#: includes/class-dashboard.php:108
+msgid "Displays the list of most viewed posts and pages on your website."
+msgstr "Affiche la liste des publications et pages les plus consultées sur votre site."
+
+#: includes/class-dashboard.php:107
+msgid "Top Posts"
+msgstr "TOP publications"
+
+#: includes/class-dashboard.php:102
+msgid "Displays the chart of most viewed post types for a selected time period."
+msgstr "Affiche le graphique des types de publication les plus consultés pour une période choisie."
+
+#: includes/class-dashboard.php:566 includes/class-widgets.php:72
+msgid "No most viewed posts found"
+msgstr "Pas d’article \"Les plus vues\""
+
+#: post-views-counter.php:286
+msgid "<a href=\"%s\" class=\"pvc-dismissible-notice\" target=\"_blank\" rel=\"noopener\">Ok, you deserve it</a><br /><a href=\"javascript:void(0);\" class=\"pvc-dismissible-notice pvc-delay-notice\" rel=\"noopener\">Nope, maybe later</a><br /><a href=\"javascript:void(0);\" class=\"pvc-dismissible-notice\" rel=\"noopener\">I already did</a>"
+msgstr "<a href=\"%s\" class=\"pvc-dismissible-notice\" target=\"_blank\" rel=\"noopener\">Ok, vous le méritez</a><br /><a href=\"javascript:void(0);\" class=\"pvc-dismissible-notice pvc-delay-notice\" rel=\"noopener\">Non, peut-être plus tard</a><br /><a href=\"javascript:void(0);\" class=\"pvc-dismissible-notice\" rel=\"noopener\">Je l’ai déjà fait</a>"
+
+#: post-views-counter.php:286
+msgid "Your help is much appreciated. Thank you very much"
+msgstr "Votre aide est très apprécié. Merci beaucoup."
+
+#: post-views-counter.php:286
+msgid "Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation."
+msgstr "C’est super ! Pouvez-vous attribuer une note 5 étoiles à l’extension sur WordPress.org pour nous aider et nous motiver ?"
+
+#: post-views-counter.php:286
+msgid "Hey, you've been using <strong>Post Views Counter</strong> for more than %s."
+msgstr "Hé, vous utilisez <strong>Post Views Counter</strong> depuis plus de %s."
+
+#. Author of the plugin
+msgid "Digital Factory"
+msgstr "Digital Factory"
+
+#: includes/class-admin.php:75 includes/class-admin.php:79
+#: includes/class-admin.php:109 includes/class-admin.php:113
+msgid "You are not allowed to edit this item."
+msgstr "Vous n’êtes pas autorisé à modifier cet élément."
+
+#: includes/class-widgets.php:179
+msgid "Display post author?"
+msgstr "Afficher l’auteur ou l’autrice de l’article ?"
+
+#: includes/class-widgets.php:84
+msgid "Ordered list"
+msgstr "Liste ordonnée"
+
+#: includes/class-widgets.php:83
+msgid "Unordered list"
+msgstr "Liste non ordonnée"
+
+#: includes/class-settings.php:213
+msgid "Enable to prevent bypassing the counts interval (for e.g. using incognito browser window or by clearing cookies)."
+msgstr "Activer pour éviter de contourner l’intervalle de comptage (par exemple, en utilisant la fenêtre du navigateur de navigation privée ou en effaçant les cookies)."
+
+#: includes/class-settings.php:209
+msgid "Strict counts"
+msgstr "Comptages stricts"
+
+#: post-views-counter.php:635
+msgid "Are you sure you want to delete all existing data?"
+msgstr "Confirmez-vous la suppression de toutes les données existantes ?"
+
+#: includes/class-update.php:128
+msgid "Thank you! Datebase was succesfully updated."
+msgstr "Merci ! La base de données a bien été mise à jour."
+
+#: includes/class-update.php:83
+msgid "Run the Update"
+msgstr "Exécuter la mise à jour"
+
+#: includes/class-update.php:82
+msgid "<strong>Post Views Counter</strong> - this version requires a database update. Make sure to back up your database first."
+msgstr "<strong>Post Views Counter</strong> - Cette version nécessite une mise à jour de la base de données. Assurez-vous de sauvegarder votre base de données d’abord."
+
+#: includes/class-settings.php:410
+msgid "Error occurred. All existing data were not deleted."
+msgstr "Une erreur s’est produite. Toutes les données existantes n’ont pas été supprimées."
+
+#: includes/class-settings.php:408
+msgid "All existing data deleted succesfully."
+msgstr "Toutes les données existantes ont bien été supprimées."
+
+#: includes/class-settings.php:818
+msgid "Delete all the existing post views data."
+msgstr "Supprimez toutes les données de vues de publication existantes."
+
+#: includes/class-settings.php:817
+msgid "Delete views"
+msgstr "Supprimer des vues"
+
+#: includes/class-settings.php:815
+msgid "Override existing views data."
+msgstr "Remplacer les données de vues existantes."
+
+#: includes/class-settings.php:815
+msgid "Import views"
+msgstr "Importer des vues"
+
+#: includes/class-settings.php:217
+msgid "Tools"
+msgstr "Outils"
+
+#: includes/class-settings-api.php:207
+msgid "Check out our other <a href=\"%s\" target=\"_blank\">WordPress plugins</a>."
+msgstr "Découvrez nos autres <a href=\"%s\" target=\"_blank\">extensions WordPress </a>."
+
+#: includes/class-settings-api.php:206
+msgid "Blog about it & link to the <a href=\"%s\" target=\"_blank\">plugin page</a>."
+msgstr "Blog au sujet de l’extension et lien vers la <a href=\"%s\" target=\"_blank\">page de l’extension</a>."
+
+#: includes/class-settings-api.php:205
+msgid "<a href=\"%s\" target=\"_blank\">Rate it 5</a> on WordPress.org"
+msgstr "<a href=\"%s\" target=\"_blank\">Mettez une note 5</a> sur WordPress.org"
+
+#: includes/class-settings-api.php:202
+msgid "If you are having problems with this plugin, please browse it's <a href=\"%s\" target=\"_blank\">Documentation</a> or talk about them in the <a href=\"%s\" target=\"_blank\">Support forum</a>"
+msgstr "Si vous rencontrez des problèmes avec cette extension, veuillez consulter la <a href=\"%s\" target=\"_blank\">documentation</a> ou parlez-en dans le <a href=\"%s\" target=\"_blank\">forum de discussion</a> de Cookie Notice."
+
+#: includes/class-settings.php:60
+msgid "REST API"
+msgstr "API REST"
+
+#: includes/class-counter.php:375
+msgid "Post type excluded."
+msgstr "Type de publication exclu."
+
+#: includes/class-admin.php:105 includes/class-counter.php:368
+msgid "Invalid post ID."
+msgstr "ID de publication non valide."
+
+#: includes/class-counter.php:361
+msgid "REST API method is disabled."
+msgstr "La méthode API REST est désactivée."
+
+#: includes/class-settings.php:151
+msgid "Count Interval"
+msgstr "Intervalle de comptage"
+
+#: includes/class-settings.php:257
+msgid "Select page types where the views count will be displayed."
+msgstr "Choisir les types de pages où le nombre de vues sera affiché."
+
+#: includes/class-settings.php:270
+msgid "User Type"
+msgstr "Type d’utilisateur/utilisatrice"
+
+#: includes/class-settings.php:253
+msgid "Page Type"
+msgstr "Type de la page"
+
+#: includes/class-settings.php:244
+msgid "Post Type"
+msgstr "Type de publication"
+
+#: includes/class-settings.php:264
+msgid "Search results"
+msgstr "Résultats de la recherche"
+
+#: includes/class-settings.php:263
+msgid "Single pages"
+msgstr "Pages uniques"
+
+#: includes/class-settings.php:262
+msgid "Archives"
+msgstr "Archives"
+
+#: includes/class-settings.php:261
+msgid "Home"
+msgstr "Accueil"
+
+#: includes/class-dashboard.php:311 includes/class-dashboard.php:400
+msgid "Total Views"
+msgstr "Total de vues"
+
+#: includes/class-dashboard.php:228 includes/class-dashboard.php:231
+#: includes/class-dashboard.php:481 includes/class-dashboard.php:484
+#: includes/class-dashboard.php:617
+msgid "You do not have permission to access this page."
+msgstr "Vous n’avez pas le droit d’accéder à cette page."
+
+#: includes/class-settings.php:401
+msgid "There was no post views data to import."
+msgstr "Il n’y avait pas de données de vues de publication à importer."
+
+#: includes/class-settings.php:853
+msgid "Use it to hide the post views counter from selected user roles."
+msgstr "Utilisez-le pour masquer le compteur d’affichages de publication des rôles utilisateur/utilisateur choisis."
+
+#. Description of the plugin
+msgid "Post Views Counter allows you to display how many times a post, page or custom post type had been viewed in a simple, fast and reliable way."
+msgstr "Post Views Counter vous permet d’afficher combien de fois une publication, une page ou un type de publication personnalisé a été consulté d’une manière simple, rapide et fiable."
+
+#: post-views-counter.php:708
+msgid "Settings"
+msgstr "Réglages"
+
+#: post-views-counter.php:688
+msgid "Support"
+msgstr "Support"
+
+#: post-views-counter.php:634
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Êtes-vous sûr de vouloir réinitialiser les réglages ?"
+
+#: includes/class-widgets.php:184
+msgid "Thumbnail size"
+msgstr "Taille de miniature "
+
+#: includes/class-widgets.php:181
+msgid "Display post thumbnail?"
+msgstr "Afficher la miniature ?"
+
+#: includes/class-widgets.php:177
+msgid "Display post excerpt?"
+msgstr "Afficher l’extrait de la publication&nbsp; ?"
+
+#: includes/class-widgets.php:175
+msgid "Display post views?"
+msgstr "Afficher le nombre de vues de l’article  ?"
+
+#: includes/class-widgets.php:149
+msgid "Order"
+msgstr "Tri"
+
+#: includes/class-widgets.php:145
+msgid "No posts message"
+msgstr "Message Aucune publication"
+
+#: includes/class-widgets.php:141
+msgid "Number of posts to show"
+msgstr "Nombre d’articles à afficher"
+
+#: includes/class-widgets.php:128
+msgid "Post Types"
+msgstr "Types de publication"
+
+#: includes/class-widgets.php:124
+msgid "Title"
+msgstr "Titre"
+
+#: includes/class-widgets.php:78
+msgid "Descending"
+msgstr "Descendant"
+
+#: includes/class-widgets.php:77
+msgid "Ascending"
+msgstr "Croissant "
+
+#: includes/class-widgets.php:56
+msgid "Displays a list of the most viewed posts"
+msgstr "Affiche une liste des publications les plus consultées"
+
+#: includes/class-widgets.php:54 includes/class-widgets.php:62
+msgid "Most Viewed Posts"
+msgstr "Articles les plus consultés"
+
+#: includes/class-settings.php:399
+msgid "Post views data imported succesfully."
+msgstr "Données de vues de publications bien importées."
+
+#: includes/class-settings.php:844
+msgid "Use it to hide the post views counter from selected type of visitors."
+msgstr "Utilisez-le pour masquer le compteur de vues de publication du type d’internaute choisi."
+
+#: includes/class-settings.php:311
+msgid "Enter the post views icon class. Any of the <a href=\"%s\" target=\"_blank\">Dashicons</a> classes are available."
+msgstr "Saisir la classe d’icône des vues de publication. Toutes les classes <a href=\"%s\" target=\"_blank\">Dashicons</a> sont disponibles."
+
+#: includes/class-settings.php:298
+msgid "Choose how to display the post views counter."
+msgstr "Choisir comment afficher le compteur d’affichage des publications."
+
+#: includes/class-settings.php:230
+msgid "Enable to delete all plugin data on deactivation."
+msgstr "Activer pour supprimer toutes les données de l’extension lors de la désactivation."
+
+#: includes/class-settings.php:147
+msgid "Enable to restrict post views editing to admins only."
+msgstr "Active la restriction d’édition des vues d’articles aux seuls Administrateurs."
+
+#: includes/class-settings.php:816
+msgid "Import post views data from WP-PostViews plugin."
+msgstr "Importer des données de comptage de vue de l’extension WP-PostViews."
+
+#: includes/class-settings.php:775
+msgid "Enter the IP addresses to be excluded from post views count."
+msgstr "Saisir les adresses IP à exclure du nombre de vues de publication."
+
+#: includes/class-settings.php:774
+msgid "Add my current IP"
+msgstr "Ajouter mon adresse IP actuelle"
+
+#: includes/class-settings.php:774
+msgid "Add new"
+msgstr "Ajouter"
+
+#: includes/class-settings.php:763 includes/class-settings.php:769
+msgid "Remove"
+msgstr "Retirer"
+
+#: includes/class-settings.php:535
+msgid "Enter the time between single user visit count."
+msgstr "Saisir le temps entre le nombre de visites d’un seul internaute."
+
+#: includes/class-settings.php:139
+msgid "Enable to display post views count column for each of the selected post types."
+msgstr "Sélectionner pour afficher une colonne « nombre de vues » pour chacune des publications sélectionnées."
+
+#: includes/class-settings.php:248
+msgid "Select post types for which the views count will be displayed."
+msgstr "Choisir les types de publication pour lesquels le nombre de vues sera affiché."
+
+#: includes/class-settings.php:122
+msgid "Select post types for which post views will be counted."
+msgstr "Choisir les types de publication dont les vues seront comptées."
+
+#: includes/class-settings.php:237
+msgid "Enter the label for the post views counter field."
+msgstr "Saisir le texte pour l’affichage du nombre de vues."
+
+#: includes/class-settings.php:308
+msgid "Icon Class"
+msgstr "Classe de l’icône"
+
+#: includes/class-settings.php:295 includes/class-widgets.php:162
+msgid "Display Style"
+msgstr "Style d’affichage"
+
+#: includes/class-settings.php:283
+msgid "Position"
+msgstr "Position"
+
+#: includes/class-settings.php:234
+msgid "Post Views Label"
+msgstr "Libellé du nombre de vues"
+
+#: includes/class-settings.php:226
+msgid "Deactivation"
+msgstr "Désactivation"
+
+#: includes/class-settings.php:200
+msgid "Exclude IPs"
+msgstr "Exclure les adresses IP"
+
+#: includes/class-settings.php:187
+msgid "Exclude Visitors"
+msgstr "Exclure les visiteurs"
+
+#: includes/class-settings.php:175
+msgid "Flush Object Cache Interval"
+msgstr "Intervalle de temps pour le nettoyage du cache d’objets"
+
+#: includes/class-settings.php:163
+msgid "Reset Data Interval"
+msgstr "Réinitialiser l’intervalle de données"
+
+#: includes/class-settings.php:143
+msgid "Restrict Edit"
+msgstr "Restreindre la modification"
+
+#: includes/class-settings.php:135
+msgid "Post Views Column"
+msgstr "Colonne de vues"
+
+#: includes/class-settings.php:127
+msgid "Counter Mode"
+msgstr "Mode du compteur"
+
+#: includes/class-settings.php:118
+msgid "Post Types Count"
+msgstr "Compteur des publications"
+
+#: includes/class-settings-api.php:249
+msgid "Reset to defaults"
+msgstr "Réinitialiser aux valeurs par défaut"
+
+#: includes/class-settings-api.php:204
+msgid "Do you like this plugin?"
+msgstr "Aimez-vous cette extension ?"
+
+#: includes/class-settings-api.php:201
+msgid "Need support?"
+msgstr "Besoin d’aide ?"
+
+#. Plugin Name of the plugin
+#: includes/class-dashboard.php:61 includes/class-settings.php:339
+msgid "Post Views Counter"
+msgstr "Post Views Counter"
+
+#: includes/class-settings.php:348
+msgid "Display"
+msgstr "Afficher"
+
+#: includes/class-settings.php:344
+msgid "General"
+msgstr "Général"
+
+#: includes/class-settings.php:303
+msgid "label"
+msgstr "libellé"
+
+#: includes/class-settings.php:302
+msgid "icon"
+msgstr "icône"
+
+#: includes/class-settings.php:290
+msgid "manual"
+msgstr "manuel"
+
+#: includes/class-settings.php:289
+msgid "after the content"
+msgstr "après le contenu"
+
+#: includes/class-settings.php:288
+msgid "before the content"
+msgstr "avant le contenu"
+
+#: includes/class-settings.php:90
+msgid "selected user roles"
+msgstr "rôles utilisateur/utilisatrice choisis"
+
+#: includes/class-settings.php:89
+msgid "guests"
+msgstr "personnes"
+
+#: includes/class-settings.php:88
+msgid "logged in users"
+msgstr "utilisateurs connectés"
+
+#: includes/class-settings.php:87
+msgid "robots"
+msgstr "le-robots"
+
+#: includes/class-settings.php:82
+msgid "years"
+msgstr "années"
+
+#: includes/class-settings.php:81
+msgid "months"
+msgstr "mois"
+
+#: includes/class-settings.php:80
+msgid "weeks"
+msgstr "semaines"
+
+#: includes/class-settings.php:79
+msgid "days"
+msgstr "jours"
+
+#: includes/class-settings.php:78
+msgid "hours"
+msgstr "heures"
+
+#: includes/class-settings.php:77
+msgid "minutes"
+msgstr "minutes"
+
+#: includes/class-settings.php:55
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: includes/class-settings.php:54
+msgid "PHP"
+msgstr "PHP"
+
+#: includes/functions.php:489
+msgid "No Posts"
+msgstr "Aucun Articles"
+
+#: includes/class-cron.php:83
+msgid "Post Views Counter cache flush interval"
+msgstr "Intervalle de vidage du cache du compteur Post Views"
+
+#: includes/class-cron.php:78
+msgid "Post Views Counter reset daily counts interval"
+msgstr "Intervalle de réinitialisation du compteur de publication"
+
+#: includes/class-admin.php:155 includes/class-columns.php:78
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/class-columns.php:77
+msgid "OK"
+msgstr "OK"
+
+#: includes/class-admin.php:154 includes/class-columns.php:73
+msgid "Adjust the views count for this post."
+msgstr "Ajuster le comptages de vus pour cet article."
+
+#: includes/class-columns.php:69
+msgid "Edit"
+msgstr "Modifier"
+
+#: includes/class-admin.php:153 includes/class-columns.php:60
+#: includes/class-columns.php:232 includes/class-columns.php:295
+#: includes/class-dashboard.php:101 includes/class-dashboard.php:265
+#: includes/class-dashboard.php:528
+msgid "Post Views"
+msgstr "Nombre des vues"
